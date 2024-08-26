@@ -4,10 +4,16 @@
     font-family: Poppins;
 }
 
+body {
+    overflow-x: hidden;
+    background-color: #D4CFCF;
+    color: #333;
+}
+
 .bg_img {
-    height: 100vh; /*100% height of the screen*/
-    width: 100vw; /*100% width of the screen*/
-    object-fit: cover; /* retain aspect ratio */
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
     filter: brightness(0.6);
     position: absolute;
     top: 0;
@@ -24,14 +30,14 @@
     box-shadow: o 3px 10px rgba(0, 0, 0, 0.5);
 }
 
-.title {
+.banner_title {
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    z-index: 1; 
+    z-index: 1;
 }
 
 h1 {
@@ -40,4 +46,23 @@ h1 {
 
 span {
     color: rgb(151, 218, 218);
+}
+
+main {
+    margin-top: 800px;
+}
+
+#features img {
+    max-height: 250px;
+}
+
+.btn-coffee {
+    background-color: #6f4e37;
+    border-color: #6f4e37;
+    color: white;
+}
+
+.btn-coffee:hover {
+    background-color: #5a3d2b;
+    border-color: #5a3d2b;
 }

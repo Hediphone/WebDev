@@ -2,13 +2,18 @@
 
 * {
     font-family: Poppins;
-    color: white;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #D4CFCF;
+    color: #333;
 }
 
 .bg_img {
-    height: 100vh; /*100% height of the screen*/
-    width: 100vw; /*100% width of the screen*/
-    object-fit: cover; /* retain aspect ratio */
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
     filter: brightness(0.3);
     position: absolute;
     top: 0;
@@ -25,9 +30,11 @@
     box-shadow: o 3px 10px rgba(0, 0, 0, 0.5);
 }
 
-#content {
+#banner {
     margin-top: 100px;
+    margin-bottom: 230px;
     padding: 20px;
+    color: #D4CFCF;
 }
 
 h1 {
@@ -43,14 +50,14 @@ h1::after {
     bottom: -5px;
     width: 100%;
     height: 2px;
-    background-color: white;
+    background-color: #D4CFCF;
 }
 
 .projects {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10%; 
+    gap: 10%;
     padding-top: 20px;
 }
 
@@ -59,22 +66,22 @@ h1::after {
     margin-top: 30px;
     width: 20%;
     padding: 20px;
-    border: solid white;
+    border: solid #D4CFCF;
 }
 
 .myProjects img {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border: solid white;
+    border: solid #D4CFCF;
     margin-bottom: 10px;
 }
 
 .myProjects img:hover {
     transition: all 0.5s;
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
 
-p {
+.myProjects p {
     font-size: 20px;
 }
