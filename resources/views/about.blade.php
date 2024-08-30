@@ -55,7 +55,7 @@
             <div class="d-flex justify-content-center">
                 <div class="img_container">
                     <img class="about_img"
-                        src="https://scontent.fmnl13-1.fna.fbcdn.net/v/t39.30808-6/379676475_6705652826137969_1849771600815602370_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEifS8JpKttA5tDuJqfEFtYYalv_UIvPoBhqW_9Qi8-gNo_ogSf9ec7oRGvKK5vzdGQ2oa-yVsL1uOYEnj_FhAf&_nc_ohc=2QB5nrWyigoQ7kNvgHvZ1Ml&_nc_ht=scontent.fmnl13-1.fna&oh=00_AYDZkwoD2s8MI_VvCQxnkQdJ0o7ngzC-gNYnX5wn-uUc_w&oe=66CFA36F">
+                        src="pic.jpg" alt="pic">
                 </div>
             </div>
 
